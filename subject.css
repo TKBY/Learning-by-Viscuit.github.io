@@ -1,0 +1,23 @@
+/*各教科htmlの配置など。レスポンシブ*/
+.box-list{
+  display:flex;
+  margin:0;
+  padding:0;
+  list-style:none;
+  justify-content:space-between;
+  flex-flow:row wrap;
+
+}
+
+/*各教科htmlの配置など。レスポンシブ*/
+.box-list li{
+  flex:0 0 98%;
+  border:1px solid #ccc;
+  margin-bottom:10px;
+  color:#333333;
+  list-style: :none;
+}
+/*各教科htmlの配置など。レスポンシブ*/
+img {
+  width:80%;
+  }
