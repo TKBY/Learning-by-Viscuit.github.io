@@ -19,7 +19,7 @@ a{
 /*トップページ画像に適用*/
 .tytle-space{
   padding:115px 0 100px 0;
-  background-image: url(img/top_img.jpg);
+  background-image: url(top_img.jpg);
   opacity: 0.7;
   background-size:cover;
   color:ivory;
