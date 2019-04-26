@@ -1,3 +1,196 @@
+<!--<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>国語</title>
+  <link rel="stylesheet" href="subject.css" type="text/css">
+
+
+</head>
+<body>
+  <h1>漢字はどうやってできたの？</h1>
+  <ul class="box-list" style="list-style:none;">
+    <li>
+      <h1>漢字の成り立ちプログラム作り方動画</h1>
+      <video controls autoplay  width=100%>
+          <source src="/Users/take40/Desktop/html_viscuit/video/naritachi.MP4">
+            <p>動画を再生するには、videoタグをサポートしたブラウザが必要です。</p>
+          </video>
+          <h1>漢字の成り立ちプログラムの資料</h1>
+          <p>学習指導要領解説/第3章/第1節1[知識及び技能]/(1)エには、「第1学年の配当漢字には、象形文字や指示文字が多く含まれているので、漢字の字形と具体的な事物(実物や絵など)とを結びつけるなどの指導を工夫し、漢字が表意文字であることを意識しながら、漢字に対する興味や関心を高められるようにする」とあります。アニメーションで漢字の成り立ちの理解を深めます。</p>
+
+  <h2><学習指導要領の３本の柱に基づくねらい></h2>
+  <h3><知識・技能></h3>
+  <table border="1"cellspacing="0" bordercolor="#333" width="100%">
+    <tr align="center">
+      <th width="30%">視点</th>
+      <th width="70%">ねらい</th>
+    </tr>
+    <tr>
+    <td>教科として</td>
+    <td>漢字の形や成り立ちを調べ、それぞれの形に意味が込められていることに気づき、「象形文字」「形成文字」「会意文字」という分類の仕方で漢字の形や成り立ちを捉えて正しく理解することができる。</td>
+   </tr>
+  <tr>
+  <td>プログラミング敎育として</td>
+  <td>漢字の成り立ちを手順としてアニメーションで自然に見せるには、順を追って１コマずつプログラムにより作ることが必要だと気づくことができる。</td>
+</tr>
+</table>
+  <h3><思考力、判断力、表現力></h3>
+  <table border="1"cellspacing="0" bordercolor="#333" width="100%">
+    <tr align="center">
+      <th width="30%">視点</th>
+      <th width="70%">ねらい</th>
+    </tr>
+    <tr>
+  <td>教科として</td>
+  <td>漢字の形や成り立ちを調べ、１コマずつプログラミングで表現する活動を通して、漢字の成り立ちに興味・関心を持ち、多様性に気づくとともに規則性を見出したり、既習事項を用いて表現したりする力を養う。</td>
+    </tr>
+    <tr>
+  <td>プログラミング敎育として</td>
+  <td>漢字の成り立ちをアニメーションとして完成させるために、どのような動きの組み合わせが必要であり、一連の描画に対応したパーツをどのように組み合わせて行くかを論理的に考えていく力を養う。</td>
+</tr>
+</table>
+<h3><学びに向かう力・人間性等></h3>
+</table>
+<table border="1"cellspacing="0" bordercolor="#333" width="100%">
+  <tr align="center">
+    <th width="30%">視点</th>
+    <th width="70%">ねらい</th>
+  </tr>
+  <tr>
+  <td>教科として</td>
+  <td>個人・ペア・グループなど学習の形態を変え、友だちの考えから学ぶ機会を設定するとともに、漢字の学習を成り立ちや意味に着目して捉えることで、漢字が形成されてきた歴史や背景にも興味をもち、「象形・形成・会意」といった成り立ちを自分のより良い学習に生かそうとする態度を養う</td>
+</tr>
+<tr>
+  <td>プログラミング教育として</td>
+  <td>漢字の学びにプログラミングを取り入れる活動を通して、コンピューターの便利さを学習に活かし、自らの思考のプロセス等を客観的に捉える力を養う。</td>
+</tr>
+</table>
+<h2>授業の流れ(略案:45分、タブレットでの実施を推奨いたします。)の例</h2>
+<p>　※ビスケットの操作が初めての場合は、調べ学習を別コマで行ってください。機材環境がPCの場合は、ビスケットランドなどでマウス操作による描画に慣れてからの実施をオススメします。</p>
+<table border="1" cellspacing="0" bordercolor="#333" width="100%">
+  <tr align="center">
+  <th width="10%">流れ</th>
+  <th width="40%">活動内容</th>
+  <th width="40%">教師の動き</th>
+  <th width="10%">時間</th>
+  </tr>
+<tr>
+<td>既習事項の想起し、めあてを設定する。</td>
+<td>似た漢字の2文字の事例を見せ、他にもないかたずねる。</td>
+<td>3分</td>
+</tr>
+<tr>
+<td>個人制作（ペア・グループ制作）</td>
+<td>紹介した似た漢字を元にした似た漢字クイズプログラムを見せ、今から自分たちも作ることを知らせる。実際に作って見せるか作成動画を見せる。</td>
+<td>7分</td>
+</tr>
+<tr>
+<td>調べる</td>
+<td>自分が知っている漢字または辞書や教科書で似た漢字2文字を調べる。</td>
+<td>1２分</td>
+</tr>
+<tr>
+<td>作る</td>
+<td>調べ終わった個人（ペア、グループ）は似た漢字クイズプログラムの作成をする。</td>
+<td>15分</td>
+</tr>
+<tr>
+<td>交流する</td>
+<td>友だちが作った作品を見に行く</td>
+<td>5分</td>
+</tr>
+<tr>
+<td>ふりかえり</td>
+<td>学習のふりかえりをする</td>
+<td>3分</td>
+</tr>
+</table>
+  <table border="1" cellspacing="0" bordercolor="#333" width="100%">
+    <tr align="center">
+      <th width="30%">視点</th>
+      <th width="70%">指導上の留意点</th>
+    </tr>
+    <tr>
+  <td>教科として</td>
+  <td>漢字の成り立ちについての興味・関心を高めるために、分かりやすい事例を提示しし、その後の活動への意欲を喚起することが大切である。この活動によって、漢字により興味・関心が高まった児童は、既習事項外の漢字について興味・関心が出てくることがある。デジタルアナログに拘らず、児童の調べたい漢字を検索できるツール（国語辞典、漢字辞典、アプリ、電子辞書等）を準備しておくと、主体的・対話的で深い学びに繋がる活動になると思われる。こちらの事例は、従来通りの活動実施後に取り組むことでより学習に対する関心・意欲が高まるものと思われるので、従来通りの学習を否定するものではなく、理解を深化させる活動の一環として行うと効果的であると考える。</td>
+</tr>
+<tr>
+  <td>プログラミング教育として</td>
+  <td>このプログラムではコンピュータが動く仕組みの一つ「順次」という考え方を学ぶことができる。また、タッチマーク（プログラム解説参照）を入れることで「条件分岐」を学ぶことができる。小学校プログラミング教育の手引（第二版）には、「情報活用能力の育成を図るための学習活動の充実を図ることとして『児童がプログラミングを体験しながら、コンピューターに意図下処理を行わせるために必要な論理的思考力を身につけるための学習活動』を行うことと規定しました。とある。「順次」「反復」「条件分岐」という語句はこうした活動の中で体験的に学ぶことであり、語句字体の意味や言い方を学ぶの必要はないが、発達段階に応じて、自分や友だちが作成したプログラムを分析するような学習活動を行う時などにラベリングとして紹介して行くことも可能である。</td>
+</tr>
+</table>
+</li>
+
+<li><h1>プログラムの作り方</h1>
+  <p>歯車マークをタップして背景色を変えます。最下段のバーでマス目にします。</p>
+  <div><img src="/Users/take40/Desktop/html_viscuit/img/kokugo.img/naritachi-sl/nr01.jpg"></div>
+  <p>象形文字の「山」の成り立ちを４コマアニメーションにします。まずは、２、３連なった１コマ目の山を描きます。⬇️</p>
+  <div><img src="/Users/take40/Desktop/html_viscuit/img/kokugo.img/naritachi-sl/nr02.jpg"></div>
+  <p>1コマ目の山をタッチして、同じトーンで2コマ目の山を描きます。ここでは1コマ目の山を繋げて単色で描いています。⬇️</p>
+  <div><img src="/Users/take40/Desktop/html_viscuit/img/kokugo.img/naritachi-sl/nr03.jpg"></div>
+  <p>2コマ目の山をタッチして、同じトーンで3コマ目の山を描きます。2コマ目の山と漢字の「山」の中間点です。⬇️</p>
+  <div><img src="/Users/take40/Desktop/html_viscuit/img/kokugo.img/naritachi-sl/nr04.jpg"></div>
+  <p>4コマ目の「山」という漢字を書きます。これで「山」の成り立ちの描画は終わりです。⬇️</p>
+  <div><img src="/Users/take40/Desktop/html_viscuit/img/kokugo.img/naritachi-sl/nr05.jpg"></div>
+  <p>指示文字の「下」の成り立ちを3コマのアニメーションにします。1コマ目は、上に天井（黒い線）を描き、その下方に赤い玉がある状態を描きます。⬇️</p>
+  <div><img src="/Users/take40/Desktop/html_viscuit/img/kokugo.img/naritachi-sl/nr06.jpg"></div>
+  <p>2コマ目は上に天井を（黒い線）を描き、中心付近から垂直に線を下ろします。⬇️</p>
+  <div><img src="/Users/take40/Desktop/html_viscuit/img/kokugo.img/naritachi-sl/nr07.jpg"></div>
+  <p>3コマ目は「下」という漢字を書きます。これで「下」の成り立ちの描画は終わりです。⬇️</p>
+  <div><img src="/Users/take40/Desktop/html_viscuit/img/kokugo.img/naritachi-sl/nr08.jpg"></div>
+  <p>会意文字の「岩」の成り立ちを足し算の式のアニメーションにします。ますは、「山」という文字を書きます。⬇️</p>
+  <div><img src="/Users/take40/Desktop/html_viscuit/img/kokugo.img/naritachi-sl/nr09.jpg"></div>
+  <p>次に「石」という文字を書きます。⬇️</p>
+  <div><img src="/Users/take40/Desktop/html_viscuit/img/kokugo.img/naritachi-sl/nr10.jpg"></div>
+  <p>次に+と＝を描きます。⬇️</p>
+  <div><img src="/Users/take40/Desktop/html_viscuit/img/kokugo.img/naritachi-sl/nr11.jpg"></div>
+  <p>さらに「岩」という漢字を書きます。これで「岩」の成り立ちの描画は終わりです。⬇️</p>
+  <div><img src="/Users/take40/Desktop/html_viscuit/img/kokugo.img/naritachi-sl/nr12.jpg"></div>
+  <p>形成文字の「草」の成り立ちを足し算の式のアニメーションにします。まずは、「早」という文字を書き、「ソウ」という読み仮名を添えます。⬇️</p>
+  <div><img src="/Users/take40/Desktop/html_viscuit/img/kokugo.img/naritachi-sl/nr14.jpg"></div>
+  <p>次に艸（草冠）を描きます。⬇️</p>
+  <div><img src="/Users/take40/Desktop/html_viscuit/img/kokugo.img/naritachi-sl/nr15.jpg"></div>
+  <p>さらに「草」という漢字を書き、「ソウ」という読み仮名を添えます。これで「草」という漢字の成り立ちの描画は終わりです。⬇️</p>
+  <div><img src="/Users/take40/Desktop/html_viscuit/img/kokugo.img/naritachi-sl/nr17.jpg"></div>
+  <p>描画が終わったので、ステージにパーツを配置してプログラムしていきます。それぞれ１コマ目となるパーツを並べます。「岩」と「草」は足し算の式のように並べます。⬇️</p>
+  <div><img src="/Users/take40/Desktop/html_viscuit/img/kokugo.img/naritachi-sl/nr19.jpg"></div>
+  <p>メガネを７つ並べます。⬇️</p>
+  <div><img src="/Users/take40/Desktop/html_viscuit/img/kokugo.img/naritachi-sl/nr20.jpg"></div>
+  <p>「山」という漢字の成り立ちをプログラムしていきます。メガネの左に１コマ目の山の絵を入れ、タッチマークを重ねます。右に2コマ目の山の絵を入れます。⬇️</p>
+  <div><img src="/Users/take40/Desktop/html_viscuit/img/kokugo.img/naritachi-sl/nr21.jpg"></div>
+  <p>左に2コマ目の山を入れ、右に3コマ目の山を入れます。⬇️</p>
+  <div><img src="/Users/take40/Desktop/html_viscuit/img/kokugo.img/naritachi-sl/nr22.jpg"></div>
+  <p>左に3コマ目の山を入れ、右に「山」という漢字を入れます。⬇️</p>
+  <div><img src="/Users/take40/Desktop/html_viscuit/img/kokugo.img/naritachi-sl/nr23.jpg"></div>
+  <p>ここでプログラムが動くか確認をしてみましょう。１コマ目→２コマ目→3コマ目→「山」と変化したらOKです。「山」は物の姿形をかたどった象形文字です。⬇️</p>
+  <div><img src="/Users/take40/Desktop/html_viscuit/img/kokugo.img/naritachi-sl/nr24.jpg"></div>
+  <p>「下」という漢字の成り立ちをプログラムしていきます。メガネの左に1コマ目の「天井（黒い線）の下に赤い玉」を入れ、タッチマークを乗せ、右に2コマ目の「横棒＋垂直線」を入れます。
+  <div><img src="/Users/take40/Desktop/html_viscuit/img/kokugo.img/naritachi-sl/nr25.jpg"></div>
+  <p>左に2コマ目の「横棒＋垂直線」を入れ、右に「下」という漢字を入れます。⬇️</p>
+  <div><img src="/Users/take40/Desktop/html_viscuit/img/kokugo.img/naritachi-sl/nr26.jpg"></div>
+  <p>確認してみましょう。「天井（黒い線）の下に赤い玉」→「横棒＋垂直線」→「下」と変わればOKです。「下」は形を表しにくい物を点や線を使ったり印をつけたりして表す「指示文字」です。⬇️</p>
+  <div><img src="/Users/take40/Desktop/html_viscuit/img/kokugo.img/naritachi-sl/nr27.jpg"></div>
+  <p>「岩」という漢字の成り立ちをプログラムしていきます。メガネの左に「山＋石＝」と入れ、右に「岩」という漢字を入れます。⬇️</p>
+  <div><img src="/Users/take40/Desktop/html_viscuit/img/kokugo.img/naritachi-sl/nr28.jpg"></div>
+  <p>＋の上にタッチマークを入れます。⬇️</p>
+  <div><img src="/Users/take40/Desktop/html_viscuit/img/kokugo.img/naritachi-sl/nr29.jpg"></div>
+  <p>確認してみましょう。「山＋石＝」が＋を押すと「岩」に変化します。「岩」は2文字以上の漢字の形・意味が出会った「会意文字」です。⬇️</p>
+  <div><img src="/Users/take40/Desktop/html_viscuit/img/kokugo.img/naritachi-sl/nr30.jpg"></div>
+  <p>「草」という漢字の成り立ちをプログラムしていきます。左に「早＋艸（草冠）」を入れます。右に「草」という漢字を入れます。⬇️</p>
+  <div><img src="/Users/take40/Desktop/html_viscuit/img/kokugo.img/naritachi-sl/nr31.jpg"></div>
+  <p>＋の上にタッチマークを入れます。⬇️<</p>
+  <div><img src="/Users/take40/Desktop/html_viscuit/img/kokugo.img/naritachi-sl/nr34.jpg"></div>
+  <p>確認してみましょう。「早＋艸（草冠）」→「草」と変わればOKです。「草」は事物の累計を表す記号と発音を表す記号を組み合わせる「形声文字」です。⬇️</p>
+  <div><img src="/Users/take40/Desktop/html_viscuit/img/kokugo.img/naritachi-sl/nr35.jpg"></div>
+  <p>お好みで、右のメガネに音符マークを入れると、完成時に効果音がなります。以上で「漢字の成り立ちプログラム」は完成です。</p>
+  <div><img src="/Users/take40/Desktop/html_viscuit/img/kokugo.img/naritachi-sl/nr36.jpg"></div>
+
+</li>
+</ul>
+</body>
+</html>
+-->
 <!DOCTYPE html>
 <html>
 <head>
