@@ -135,4 +135,12 @@ li{
 img{
   width:100%;
   }
-  
+ /*5月4日　お試し　　*/
+.tytle-space{
+  display:flex;
+  margin:0;
+  padding:0;
+  list-style:none;
+  justify-content:space-between;
+  flex-flow:row wrap:
+ }
