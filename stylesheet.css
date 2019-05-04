@@ -11,17 +11,13 @@ a{
   text-decoration:none;
 }
 /*トップページタイトルボックルのみに適用*/
-/*5月4日　お試しでコメントアウト
+
 .box{
   width:1170px;
   padding:0 15px;
   margin:0 auto;
 }*/
-/* 5月4日　width:autoお試し トップページタイトルボックルのみに適用*/
-.box{
-  width:auto;
-  padding:0 15px;
-  margin:0 auto;
+
   
 /*トップページ画像に適用*/
 .tytle-space{
