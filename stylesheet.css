@@ -22,8 +22,8 @@ a{
 /*トップページ画像に適用*/
 .tytle-space{
   padding:115px 0 100px 0;
-  /*5月4日お試しコメントアウト
-  background-image: url(https://tkby.github.io/Learning-by-Viscuit.github.io/top_img.jpg);*/
+ 
+  background-image: url(https://tkby.github.io/Learning-by-Viscuit.github.io/top_img.jpg);
   opacity: 0.7;
   background-size:cover;
   color:ivory;
