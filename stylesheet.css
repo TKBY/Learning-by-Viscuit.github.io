@@ -1,4 +1,142 @@
+/*5月6日　お試しでコメントアウト、デスクトップよりコピペ、上段が本バージョン*/
 /*bodyタグ全体に適用*/
+/*body{
+margin:0px auto;
+font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
+color:#333333;
+}
+
+
+
+a{
+  text-decoration:none;
+}*/
+/*トップページタイトルボックルのみに適用*/
+/*
+.box{
+  width:1170px;
+  padding:0 15px;
+  margin:0 auto;
+}*/
+
+  
+/*トップページ画像に適用*/
+/*.tytle-space{
+  padding:115px 0 100px 0;
+ 
+  background-image: url(https://tkby.github.io/Learning-by-Viscuit.github.io/top_img.jpg);
+  opacity: 0.7;
+  background-size:cover;
+  color:ivory;
+  text-align:center;
+}
+/*トップページタイトルh1のみに適用*/
+/*.tytle-space h1{
+  opacity:0.9;
+  font-size:70px;
+  letter-spacing:5px;
+}*/
+/*トップページタイトルh2のみに適用*/
+/*.tytle-space h2{
+  opacity:0.9;
+  font-size:30px;
+/*トップページタイトルpのみに適用*/
+/*}*/
+/*.tytle-space p{
+  opacity:0.9;
+  font-size:15px;
+
+}*/
+/*headerのみに適用*/
+/*header{
+  height:65px;
+  width:100%;
+  background-color:rgba(34,49,52,0.9);
+}*/
+/*LbVのロゴのみに適用*/
+/*.logo{
+  width:124px;
+  margin-top:5px;
+  margin-left:20px;
+
+}*/
+/*今の所適用なし
+.header-left{
+  float:left;
+
+}*/
+/*教科入り口のインラインブロック要素のみに適用*/
+/*.subject_entrance{
+  height:400px;
+  padding-bottom:80px;
+  background-color:rgb(255,255,255,0.5);
+  text-align:center;
+  opacity: 0.75;
+}*/
+/*教科入り口のタイトルのインラインブロックのみに適用*/
+/*.example{
+  padding-top:15px;
+  padding-bottom:30px;
+  color:black;
+}*/
+/*教科入り口のh２のみに適用*/
+/*.example h2{
+  font-weight:normal;
+}
+/*レッスンのアイコン周辺のみ適用*/
+/*.lesson{
+  float:left;
+  width:10%;
+}*/
+/*レッスンのアイコン周辺のみ適用*/
+
+/*レッスンのアイコン教科のタイトルのみ適用*/
+
+/*適用箇所？見つからず...いらんかも
+.txt-contents{
+  width:80%;
+  display:inline-block;
+  margin-top:10px;
+  font-size:12px;
+  color:black;*/
+/*}*/
+/*適用箇所？これいる？
+li{
+  list-style:none;
+  text-align: center;
+}*/
+
+/*適用箇所　Learning by Viscuitのみ*/
+/*.box h3{
+  color:blue;
+}*/
+
+/*適用箇所ハテナ？どこ？
+.heading{
+  padding-top:60px;
+  padding-bottom:30px;
+  color:#5f5d60;
+}*/
+/*適用箇所ハテナ？どこ？
+.heading h1{
+  font-weight:normal;
+}*/
+/*以下デスクトップよりコピペ*/
+/*bodyタグ全体に適用*/
+.site-header{
+  position:fixed;
+  height:65px;
+  width:100%;
+  background-color:rgba(34,49,52,0.9);
+}
+.site-header2{
+  position:fixed;
+  height:65px;
+  width:100%;
+  background-color:rgba(34,49,52,0.9);
+}
+
+
 body{
 margin:0px auto;
 font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
@@ -11,19 +149,15 @@ a{
   text-decoration:none;
 }
 /*トップページタイトルボックルのみに適用*/
-
 .box{
   width:1170px;
   padding:0 15px;
   margin:0 auto;
-}*/
-
-  
+}
 /*トップページ画像に適用*/
 .tytle-space{
   padding:115px 0 100px 0;
- 
-  background-image: url(https://tkby.github.io/Learning-by-Viscuit.github.io/top_img.jpg);
+  background-image: url(img/top_img.jpg);
   opacity: 0.7;
   background-size:cover;
   color:ivory;
@@ -45,12 +179,6 @@ a{
   opacity:0.9;
   font-size:15px;
 
-}
-/*headerのみに適用*/
-header{
-  height:65px;
-  width:100%;
-  background-color:rgba(34,49,52,0.9);
 }
 /*LbVのロゴのみに適用*/
 .logo{
