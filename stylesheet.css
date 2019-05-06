@@ -16,15 +16,14 @@ a{
   width:1170px;
   padding:0 15px;
   margin:0 auto;
-}*/
+}
 
   
 /*トップページ画像に適用*/
 .tytle-space{
-  padding:115px 0 100px 0;
- 
-  background-image: url("https://tkby.github.io/Learning-by-Viscuit.github.io/top_img.jpg");
-  opacity: 0.7;
+  padding:115px 0 100px 0; 
+  background-image:url("https://tkby.github.io/Learning-by-Viscuit.github.io/top_img.jpg");
+  opacity:0.7;
   background-size:cover;
   color:ivory;
   text-align:center;
