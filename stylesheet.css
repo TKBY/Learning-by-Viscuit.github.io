@@ -33,19 +33,19 @@ a{
   opacity:0.9;
   font-size:70px;
   letter-spacing:5px;
-  text-align:center;
+ 
 }
 /*トップページタイトルh2のみに適用*/
 .tytle-space h2{
   opacity:0.9;
   font-size:30px;
-  text-align:center;
+ 
 /*トップページタイトルpのみに適用*/
 }
 .tytle-space p{
   opacity:0.9;
   font-size:15px;
-  text-align:center;
+ 
 
 }
 /*headerのみに適用*/
