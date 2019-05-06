@@ -23,7 +23,7 @@ a{
 .tytle-space{
   padding:115px 0 100px 0;
  
-  background-image: url(https://tkby.github.io/Learning-by-Viscuit.github.io/top_img.jpg);
+  background-image: url("https://tkby.github.io/Learning-by-Viscuit.github.io/top_img.jpg");
   opacity: 0.7;
   background-size:cover;
   color:ivory;
