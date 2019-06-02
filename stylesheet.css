@@ -123,4 +123,7 @@ li{
   font-weight:normal;
 }*/
 
-div{text-align:center;}  
+.counter{
+  text-align:center;
+  width:300px
+    }
