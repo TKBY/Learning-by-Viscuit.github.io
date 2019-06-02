@@ -6,7 +6,9 @@ font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", YuGothic, "ヒ
 color:#333333;
 }
 
-
+.counter{
+  text-align:center;
+  
 
 a{
   text-decoration:none;
@@ -16,6 +18,8 @@ a{
   width:1170px;
   padding:0 15px;
   margin:0 auto;
+  font-size:15px;
+  
 }
 
   
@@ -59,7 +63,7 @@ header{
   width:124px;
   margin-top:5px;
   margin-left:20px;
-
+  background-color:black;
 }
 /*今の所適用なし
 .header-left{
