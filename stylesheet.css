@@ -135,4 +135,13 @@ li{
   flex-wrap:wrap;
   }
  
+.icon-list li{
+  margin:10pix;
+  padding:20px;
+  border-radius:5px;
+  line-hight:1;
+  color:#fff;
+  background;#aaffaa;
+  flex-wrap:wrap;
+  }
   
