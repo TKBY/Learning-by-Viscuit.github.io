@@ -5,6 +5,33 @@ margin:0px auto;
 font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
 color:#333333;
 }
+.li{
+  list-style:none;
+  }
+ 
+/*headerのみに適用*/
+.header{
+  height:100px;
+  width:100%;
+  background-color:rgba(34,49,52,0.9);
+  color:#fff;
+}
+
+/*LbVのロゴのみに適用*/
+.header-logo{
+  float:left;
+  font-size:36px;
+  padding:20px 40px;
+  }
+
+.header-list{
+   float:left;
+   }
+
+.header-list li{
+   float:left;
+   padding:33px 20px;
+   }
 
 .counter{
   text-align:center;
@@ -52,25 +79,8 @@ a{
  
 
 }
-/*headerのみに適用*/
-.header{
-  height:100px;
-  width:100%;
-  background-color:rgba(34,49,52,0.9);
-}
-/*LbVのロゴのみに適用*/
-.header-logo{
-  float:left;
-  font-size:36px;
-  padding:20px 40px;
-  }
- .header-list{
-   float:left;
-   }
- .header-list li{
-   float:left;
-   padding:33px 20px;
-   }
+
+
 /*今の所適用なし
 .header-left{
   float:left;
