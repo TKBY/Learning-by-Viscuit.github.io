@@ -16,7 +16,19 @@ a{
   }
 .top-wrapper{
   padding:180px 0 100px 0;
+  background-image:url("https://tkby.github.io/Learning-by-Viscuit.github.io/top_img.jpg");
+  background-size:cover;
+  color:white;
+  text-align:center;
  }
+.top-wrapper h1{
+  opacity:0.7;
+  font-size:45px;
+  letter-spacong:5px;
+  }
+.top-wrapper p{
+  opacity:0.7;
+  }
 
 li{
   list-style:none;
@@ -28,6 +40,8 @@ li{
   width:100%;
   background-color:rgba(34,49,52,0.9);
   color:#fff;
+  position:fixed;
+  z-index:10;
 }
 
 /*LbVのロゴのみに適用*/
@@ -57,6 +71,13 @@ li{
   color:white;
   display:block;
   }
+.lesson-wrapper{
+  height:500px;
+  padding-bottom:80px;
+  background-color:#f7f7f7;
+  text-align:center;
+  }
+ 
 
 .counter{
   text-align:center;
