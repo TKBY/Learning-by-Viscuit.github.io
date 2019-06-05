@@ -6,7 +6,7 @@ font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", YuGothic, "ヒ
 color:#333333;
 }
 
-.li{
+li{
   list-style:none;
   }
 
@@ -32,7 +32,7 @@ color:#333333;
 .header-list li{
    float:left;
    padding:33px 20px;
-  list-style:none;
+ 
    }
 
 .counter{
