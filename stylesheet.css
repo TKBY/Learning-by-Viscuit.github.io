@@ -32,6 +32,7 @@ color:#333333;
 .header-list li{
    float:left;
    padding:33px 20px;
+  list-style:none;
    }
 
 .counter{
