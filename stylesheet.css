@@ -99,7 +99,7 @@ li{
   position:absolute;
   top:90px;
   width:100%;
-  color:#333333;
+  color:#b3aeb5;
   }
 
  .txt-contents{
@@ -109,6 +109,7 @@ li{
    font-size:12px;
    color:#b3aeb5;
    }
+
  .heading h3{
    font-weight:normal;
    }
@@ -118,6 +119,7 @@ li{
    padding-bottom:80px;
    text-align:center;
    }
+
   .message{
     padding:15px 40px;
     background-color:#5dca88;
@@ -128,29 +130,11 @@ li{
     color:#b3aeb5;
     font-size:12px
       }
+
   footer{
     padding-top:30px;
     }
 
 
   
-  .footer{
-    background-color:#2f5167;
-    color:#fff;
-    height:120px;
-    padding:40px;
-    }
-  
-  .footer-logo{
-    float:left;
-    font-size:32px;
-    }
-  
-  .footer-list{
-    float:right;
-    }
-  
-  .footer-list li{
-    padding-bottom:20px;
-    }
   
