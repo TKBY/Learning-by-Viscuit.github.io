@@ -94,12 +94,14 @@ li{
 .lesson-icon{
   position:relative;
   }
+
 .lesson-icon p{
   position:absolute;
   top:90px;
   width:100%;
-  color:white;
+  color:#333333;
   }
+
  .txt-contents{
    width:80%;
    display:inline-block;
