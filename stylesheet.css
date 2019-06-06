@@ -158,7 +158,7 @@ li{
 
 .lesson{
   float:left;
-  width:10%;
+  width:9%;
   }
 
 .lesson-icon{
@@ -167,7 +167,7 @@ li{
 
 .lesson-icon p{
   position:absolute;
-  top:944%;
+  top:44%;
   width:100%;
   color:white;
   }
