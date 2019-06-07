@@ -17,22 +17,28 @@
   .heading h2 {
     font-size: 20px;
   }
-
-/* スマホ向けレイアウト横幅670px以下 */
+}
+/* スマホ向けレイアウト.ブレイクポイント670px以下のメディアクエリ */
 @media all and (max-width: 670px) {
   .lesson {
     width: 100%;
   }
-
+  /*フッターの中身の中央寄せ*/
+  footer {
+    text-align: center;
+  }
+/*ボタンの幅:設定理由:スマフォでSNSボタンをタップしやすくするため*/
   .btn {
     width: 100%;
   }
-
+/*facebookボタンの下のマージン */
   .facebook {
     margin-bottom: 10px;
   }
+ /*.top-wrapperの中身を左寄せ、上部paddingを130pxに*/
   .top-wrapper {
     text-align: left;
+    padding-top:130px;
   }
 
   /* デフォルトメニューを非表示にする */
