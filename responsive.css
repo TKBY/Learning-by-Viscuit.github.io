@@ -19,7 +19,7 @@
   }
 }
 
-/* スマホ向けレイアウト */
+/* スマホ向けレイアウト横幅670px以下 */
 @media all and (max-width: 670px) {
   .lesson {
     width: 100%;
@@ -37,12 +37,12 @@
     text-align: left;
   }
 
-  /* header-rightクラスのdisplayをnoneに指定してください */
+  /* デフォルトメニューを非表示にする */
   .header-right{
     display:none;
   }
   
-  /* menu-iconクラスのdisplayをblockに指定してください  */
+  /* メニューアイコンを表示させる  */
   .menu-icon{
     display:block;
   }
