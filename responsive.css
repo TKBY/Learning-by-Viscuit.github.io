@@ -1,23 +1,22 @@
-/* タブレット向けレイアウト */
+/* タブレット向け（1000px以下)レイアウト */
 @media all and (max-width: 1000px) {
   .lesson {
     width: 50%;
     margin-bottom: 50px;
   }
-
+  
   footer {
     text-align: center;
   }
-
+  /*top-wrapperクラス内の<h1>タグのフォントサイズCSS*/
   .top-wrapper h1 {
     font-size: 32px;
   }
 
+  /*headingクラス内の<h2>タグのフォントサイズCSS*/
   .heading h2 {
     font-size: 20px;
-  
   }
-}
 
 /* スマホ向けレイアウト横幅670px以下 */
 @media all and (max-width: 670px) {
@@ -32,7 +31,6 @@
   .facebook {
     margin-bottom: 10px;
   }
-  
   .top-wrapper {
     text-align: left;
   }
@@ -46,11 +44,11 @@
   .menu-icon{
     display:block;
   }
-  
+  /*top-wrapperクラス内の<h1>タグのフォントサイズCSS→設定理由:画面幅が小さい時はフォントサイズを小さくした方が読みやすい*/  
   .top-wrapper h1 {
     font-size: 24px;
   }
-
+  /*headingクラス内の<h2>タグのフォントサイズCSS→設定理由:画面幅が小さい時はフォントサイズを小さくした方が読みやすい*/
   .top-wrapper p {
     font-size: 14px;
   }
