@@ -13,9 +13,6 @@ a{
   text-decoration:none;
   }
 
-li{
-  text-decoration:none;
-  }
 
 .clear{
   clear:left;
@@ -209,17 +206,17 @@ header {
   footer{
     padding-top:30px;
     padding-bottom:20px;
-    background-color:#f7f2b4;
+    
     }
 
 .footer-logo{
   float:left;
-   background-color:#f7f2b4;
+  
   }
 
  .footer-list{
   float:right;
-  background-color:#f7f2b4;
+  
   }
  
 .lesson{
