@@ -200,16 +200,16 @@ header {
     padding-bottom:20px;
     }
  
-
+.lesson{
+  float:left;
+  width:9%;
+  }
   
  .lesson-icon{
   position:relative;
   }
 
-.lesson{
-  float:left;
-  width:9%;
-  }
+
   
  .lesson-icon p{
   position:absolute;
