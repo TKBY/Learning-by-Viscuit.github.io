@@ -209,11 +209,11 @@ header {
     background-color:#f7f2b4;
     }
 
-.footer-logo{
+footer logo{
   float:left;
   }
 
-.footer-list{
+ footer li{
   float:right;
   }
  
