@@ -157,10 +157,6 @@ header {
   font-weight:normal;
   }
 
-
-
-
-
  .text-contents{
    width:80%;
    display:inline-block;
@@ -185,10 +181,12 @@ header {
     cursor: pointer;
     box-shadow:0 7px #1a7940;
     }
+
  .message:active{
    position:relative;
    top:7px;
    box-shadow:none;
+   }
   
   .footer p{
     color:#b3aeb5;
@@ -208,8 +206,6 @@ header {
  .lesson-icon{
   position:relative;
   }
-
-
   
  .lesson-icon p{
   position:absolute;
