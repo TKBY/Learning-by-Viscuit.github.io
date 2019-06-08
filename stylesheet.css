@@ -85,7 +85,7 @@ a{
   
 /*headerのみに適用*/
 header {
-  height: 80px;
+  height: 75px;
   width: 100%;
   background-color: rgba(34, 49, 52, 0.9);
   position :fixed;
