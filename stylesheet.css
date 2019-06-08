@@ -197,6 +197,14 @@ header {
     padding-top:30px;
     padding-bottom:20px;
     }
+
+.footer-logo{
+  float:left;
+  }
+
+.footer-list{
+  float:right;
+  }
  
 .lesson{
   float:left;
