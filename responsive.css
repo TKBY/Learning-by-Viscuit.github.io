@@ -1,15 +1,9 @@
 /* タブレット向け（1000px以下)レイアウト */
 @media all and (max-width: 1000px) {
-  /*.lesson {
+ .lesson {
     width: 50%;
     margin-bottom: 50px;
-  }*/
-  /*お試し*/
-  .lesson{
-  float:left;
-  width:10%;
   }
-  
   
   footer {
     text-align: center;
