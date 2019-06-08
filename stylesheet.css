@@ -137,14 +137,7 @@ header {
   display:none;
   }
 
-.lesson-wrapper{
-  
-  padding-bottom:80px;
-  padding-left:5%;
-  padding-right:5%;
-  background-color:#f7f7f7;
-  text-align:center;
-  }
+
 
  .heading{
    padding-top:80px;
@@ -161,16 +154,7 @@ header {
   width:9%;
   }
 
-.lesson-icon{
-  position:relative;
-  }
 
-.lesson-icon p{
-  position:absolute;
-  top:44%;
-  width:100%;
-  color:#333333;
-  }
 
  .text-contents{
    width:80%;
@@ -205,12 +189,27 @@ header {
   .footer{
     padding-top:30px;
     }
-
-.item{
+ 
+.lesson-wrapper{
+  padding-bottom:80px;
+  padding-left:5%;
+  padding-right:5%;
+  background-color:#f7f7f7;
+  text-align:center;
+  } 
+  
+ .lesson-icon{
   width:10%;
   float:left;
   padding-left:5px;
   padding-right:5px;
+  position:relative;
   }
-  
-  
+
+.lesson-icon p{
+  position:absolute;
+  top:44%;
+  width:100%;
+  color:#333333;
+  }
+
