@@ -157,10 +157,7 @@ header {
   font-weight:normal;
   }
 
-.lesson{
-  float:left;
-  width:10%;
-  }
+
 
 
 
@@ -209,7 +206,12 @@ header {
   position:relative;
   }
 
-.lesson-icon p{
+.lesson{
+  float:left;
+  width:5%;
+  }
+  
+ .lesson-icon p{
   position:absolute;
   top:44%;
   width:100%;
