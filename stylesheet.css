@@ -35,7 +35,19 @@ a{
  }
 
 .top-wrapper h1{
-  opacity:0.8;
+  opacity:0.9;
+  font-size:45px;
+  letter-spacong:5px;
+  }
+
+.top-wrapper h2{
+  opacity:0.9;
+  font-size:45px;
+  letter-spacong:5px;
+  }
+
+.top-wrapper h3{
+  opacity:0.9;
   font-size:45px;
   letter-spacong:5px;
   }
@@ -45,7 +57,7 @@ a{
   }
 
 .top-wrapper p{
-  opacity:0.8;
+  opacity:0.9;
   }
 
 .btn-wrapper{
