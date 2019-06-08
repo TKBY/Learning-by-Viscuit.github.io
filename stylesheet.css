@@ -98,6 +98,12 @@ header {
   color:white;
   }
 
+.header p{
+    width:120px
+    color:white;
+    font-size:10px;
+    margin-top:20px;
+  }
 /*.header-list{
    float:left;
    }
