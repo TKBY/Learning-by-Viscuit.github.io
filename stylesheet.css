@@ -209,12 +209,14 @@ header {
     background-color:#f7f2b4;
     }
 
-footer logo{
+.footer-logo{
   float:left;
+   background-color:#f7f2b4;
   }
 
- footer li{
+ .footer-list{
   float:right;
+  background-color:#f7f2b4;
   }
  
 .lesson{
