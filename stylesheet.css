@@ -96,7 +96,7 @@ header {
 /*LbVのロゴのみに適用*/
 .header-left{
   float:left;
-  color:white;
+  width:20%;
   }
 
 .header-left a{
