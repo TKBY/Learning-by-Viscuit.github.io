@@ -4,7 +4,7 @@
   }
 /*bodyタグ全体に適用*/
 body{
-margin:0px;
+margin:0;
 font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
 color:#333333;
 }
@@ -18,6 +18,7 @@ a{
   }
 /*画面幅が大きい時(1170px以下）のレイアウト調整*/
 .container{
+  max-width:1170px;
   width:100%;
   padding:0 15px;
   margin:0 auto;
@@ -26,33 +27,29 @@ a{
 .top-wrapper{
   opacity:0.8;
   padding:180px 0 100px 0;
-  background-image:url("https://tkby.github.io/Learning-by-Viscuit.github.io/top_img.jpg");
+  background-image:url(https://tkby.github.io/Learning-by-Viscuit.github.io/top_img.jpg);
   background-size:cover;
   color:white;
   text-align:center;
  }
 
 .top-wrapper h1{
-  opacity:0.9;
+  opacity:0.8;
   font-size:45px;
   letter-spacong:5px;
   }
 
-.top-wrapper p{
-  opacity:0.9;
+.btn-wrapper p{
+  margin:10px 0;
   }
 
-li{
-  list-style:none;
+.top-wrapper p{
+  opacity:0.8;
   }
 
 .btn-wrapper{
   text-align:center;
   margin:20px 0;
-  }
-
-.btn-wrapper p{
-  margin:10px 0;
   }
 
 .signup{
@@ -98,8 +95,6 @@ header {
 /*LbVのロゴのみに適用*/
 .header-left{
   float:left;
-  font-size:36px;
-  padding:40px 40px;
   }
 
 /*.header-list{
@@ -113,7 +108,7 @@ header {
 
 .header-right{
   float:right;
-  background-color:rgba(255,255,255,0.3);
+  margin-right:-25px;
   }
 
 .header-right a{
@@ -137,7 +132,13 @@ header {
   display:none;
   }
 
-
+.lesson-wrapper{
+  padding-bottom:80px;
+  padding-left:5%;
+  padding-right:5%;
+  background-color:#f7f7f7;
+  text-align:center;
+  } 
 
  .heading{
    padding-top:80px;
@@ -151,7 +152,7 @@ header {
 
 .lesson{
   float:left;
-  width:9%;
+  width:10%;
   }
 
 
@@ -180,29 +181,24 @@ header {
     cursor: pointer;
     box-shadow:0 7px #1a7940;
     }
+ .message:active{
+   position:relative;
+   top:7px;
+   box-shadow:none;
   
   .footer p{
     color:#b3aeb5;
-    font-size:12px
+    font-size:12px;
       }
 
   .footer{
     padding-top:30px;
+    padding-bottom:20px;
     }
  
-.lesson-wrapper{
-  padding-bottom:80px;
-  padding-left:5%;
-  padding-right:5%;
-  background-color:#f7f7f7;
-  text-align:center;
-  } 
+
   
  .lesson-icon{
-  width:10%;
-  float:left;
-  padding-left:5px;
-  padding-right:5px;
   position:relative;
   }
 
