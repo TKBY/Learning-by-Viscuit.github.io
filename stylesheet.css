@@ -96,7 +96,8 @@ header {
 /*LbVのロゴのみに適用*/
 .header-left{
   float:left;
-  width:20%;
+  background-image:url("https://tkby.github.io/Learning-by-Viscuit.github.io/V-EXLIPS.jpg");
+  background-size:15%;
   }
 
 .header-left a{
