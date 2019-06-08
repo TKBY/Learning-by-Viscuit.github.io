@@ -101,7 +101,8 @@ header {
 .header-left a{
     width:120px
     color:white;
-    font-size:10px;
+    font-size:30px;
+    font-weifht:bold;
     margin-top:20px;
   }
 /*.header-list{
