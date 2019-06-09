@@ -3,9 +3,9 @@
   box-sizing:border-box;
   }
 /*bodyタグ全体に適用*/
-body{
-margin:0; 
-font-family: 'Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック','YuGothic','Yu Gothic','メイリオ', 'Meiryo','ＭＳ Ｐゴシック','MS PGothic';
+  body{
+margin:0px auto;
+font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
 color:#333333;
 }
 
