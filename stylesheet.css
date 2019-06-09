@@ -13,6 +13,9 @@ a{
   text-decoration:none;
   }
 
+ul{
+  list-style:none;
+  }
 
 .clear{
   clear:left;
