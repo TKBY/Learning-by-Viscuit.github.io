@@ -1,4 +1,4 @@
-span{
+.lesson-icon p span{
   color:red;
   }
 /*レイアウト崩れ防止策：padding＋要素幅<100%になるよう、要素幅の合計にpaddingとborderを含むようにするため、HTML全体にbox-sizing:border-box;を適用*/
