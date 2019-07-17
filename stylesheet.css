@@ -29,7 +29,7 @@ ul{
 /*画面幅が大きい時(1170px以下）のレイアウト調整*/
 .container{
   max-width:1170px;
-  w100
+  w100p
   /*width:100%;*/
   padding:0 15px;
   margin:0 auto;
