@@ -7,7 +7,8 @@
   body{
 margin:0px auto;
 font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
-color:#333333;
+c#333
+    /*color:#333333;*/
 }
 
 h4 {
@@ -28,7 +29,8 @@ ul{
 /*画面幅が大きい時(1170px以下）のレイアウト調整*/
 .container{
   max-width:1170px;
-  width:100%;
+  w100
+  /*width:100%;*/
   padding:0 15px;
   margin:0 auto;
   }
@@ -39,7 +41,8 @@ ul{
   background-image:url(https://tkby.github.io/Learning-by-Viscuit.github.io/top_img.jpg);
   background-size:cover;
   color:white;
-  text-align:center;
+  tac
+  /*text-align:center;*/
  }
 
 .top-wrapper h1{
@@ -179,7 +182,8 @@ header {
    width:80%;
    display:inline-block;
    margin-top:15px;
-   font-size:13px;
+   fz13
+   /*font-size:13px;*/
    color:#b3aeb5;
    }
 
@@ -233,7 +237,8 @@ header {
   }
  
  .lesson-icon{
-  position:relative;
+   por
+  /*position:relative;*/
   }
   
  .lesson-icon p{
