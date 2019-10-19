@@ -40,9 +40,10 @@ img{
 
 <body>
   <h1>割れたメガネ（インディーズ機能）</h1>
-    <p>ビスケットには「割れたメガネ」という隠し機能があります。</p>
-    <p>ルールが簡単なビスケットですが、「割れたメガネ」という新たなルールを活用すると、プログラムで表現できるものの幅が広がります。割れたメガネは2種類あります。</p>
-    <h2>2種類の「割れたメガネ」</h2>
+    <p>ビスケットには「割れたメガネ」という隠し機能があります。ルールが簡単なビスケットですが、ビスケットを使いこなせてくると、表現したいものが広がっていきますが、必ずと言って良いほど突き当たる壁があります。それは、「ステージ上で離れた位置に配置されたパーツの制御」です。そこで「割れたメガネ」という新たなルールを活用するとこの壁を超えていくことができ、表現の幅が広がります。「割れたメガネ」は2分割と3分割の2種類があります。</p>
+       <p>ここでは格闘ゲームとSwiftPlaygrounds風のゲーム、シューティングゲームをの3例を題材として、2種類の「割れたメガネ」の機能に焦点を当てて紹介していきます。（全部のプログラムは解説しません。）まずは、2種類の割れたメガネの作り方から紹介します。</p>
+
+  <h2>2種類の「割れたメガネ」</h2>
     <p>その1「割れたメガネ」2分割バージョン</p>
     <video controls autoplay poster="https://tkby.github.io/Learning-by-Viscuit.github.io/waretamegane.Sl/waretamegane2.jpg" alt="割れたメガネ２分割デモ動画スタンバイ画像" width=85%>
       <source src="https://tkby.github.io/Learning-by-Viscuit.github.io/waretamegane.Sl/waretamegane2.mp4" alt="ビスケットで生物と環境（空気）デモ動画">
@@ -51,14 +52,14 @@ img{
     <video controls autoplay poster="https://tkby.github.io/Learning-by-Viscuit.github.io/waretamegane.Sl/waretamegane3.jpg" alt="割れたメガネ３分割デモ動画スタンバイ画像" width=85%>
       <source src="https://tkby.github.io/Learning-by-Viscuit.github.io/waretamegane.Sl/waretamegane3.mp4" alt="ビスケットで生物と環境（空気）デモ動画">
       </video>
-    <p>ここでは格闘ゲームとSwiftPlaygrounds風のゲームを題材として、2種類の「割れたメガネ」を利用したモデルプログラムを紹介していきます。表現したいものが広がっていくと、突き当たる壁があります。2種類の「割れたメガネ」がきっと解決をしてくれます。</p>
   <ul class="box-list">
         <li>
+          <h1>格闘ゲーム編</h1>
         <video controls autoplay poster="https://tkby.github.io/Learning-by-Viscuit.github.io/waretamegane.Sl/kakuto.jpg" alt="ビスケットで格闘ゲームスタンバイ画像" width=100%>
       <source src="https://tkby.github.io/Learning-by-Viscuit.github.io/waretamegane.Sl/kakuto.mp4" alt="ビスケットで格闘ゲームプレイ動画">
       </video>
-<h1>格闘ゲーム編</h1>
-         <h2>1.十字キーで離れた位置のキャラクターを動かす。</h2>
+<p>一風変わった格闘ゲームを例に、「割れたメガネ」の使い方を解説していきます。敵キャラのセリフに当たると1マス左に押されます。左端の穴に落ちるとゲームオーバーとなるので、セリフを撃破するか伏せて避けながら攻撃し、相手を穴に落とすと勝利です。Aボタンがパンチ、Bボタンがキック、上ボタン＋Bボタンでジャンプキック、下ボタンは伏せます。ジャンプキックでセリフを撃破すると、衝撃波で相手を1マス右に押せます。接近戦は、キック、パンチ、ジャンプキックを繰り出せます。相手の表情が正面向きの標準の時にヒットするとクリティカルで1マス右に押せます。</p>
+          <h2>1.十字キーで離れた位置のキャラクターを動かす。</h2>
          <img src="https://tkby.github.io/Learning-by-Viscuit.github.io/waretamegane.Sl/kakuto01.jpg">
              <a href = "https://develop.viscuit.com/env/view.html?control=edit%3A00300015%3A4177%2F1-1%2F021.json%3A1-1%3A" target="_blank">sample program</a>
          <p>「割れたメガネ」2分割バージョンでキャラクターを上下左右に動かすプログラムを作ります。</p>
