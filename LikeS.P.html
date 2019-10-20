@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-141278575-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-141278575-1');
+</script>
+  <meta charset="utf-8">
+     <!--6/19viewport仮設定-->
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>割れたメガネ(Swift Playgrounds風ゲーム)</title>
+  <link rel="stylesheet" href="subject.css" type="text/css">
+<!--レスポンシブデザイン-->
+
+  </head>
+<body>
+  <ul class="box-list" style="list-style:none;">
+  <li>
+   <h1>Swift Playgrounds風ゲームにおける「割れたメガネ」の活用</h1>
+ <video controls autoplay poster="https://tkby.github.io/Learning-by-Viscuit.github.io/waretamegane.Sl/LikeS.P.jpg" alt="ビスケットでSP風ゲームデモ動画スタンバイ画像" width=60%>
+   <source src="https://tkby.github.io/Learning-by-Viscuit.github.io/waretamegane.Sl/LikeS.P.mp4" alt="ビスケットでSP風ゲームデモ動画">
+     <p>動画を再生するには、videoタグをサポートしたブラウザが必要です。</p>
+   </video>
+   <p>Swift Playgrounds風ゲームを例に、「割れたメガネ」の使い方を解説していきます。画面左に"Move Forward(前進)"、"Turn Left"、"Turn Right(右折)"、"Warp(ワープ)"、"Collect Gem(宝石を集める)"という命令の一覧があります。右の地図を見て、カニを宝石のあるところまで動かす一連の命令(この場合全部で11個)を並べていきます。水色の枠を上下させて、指示したい命令をタップすると、アイコンに変換された命令を並べることができます。オレンジの矢印をタップすると命令の実行です。</p>
+<h2>「割れためがね」の使用場面と作り方説明</h2>
+          <h3>1.5つの命令をタップして、アイコンに変換して命令をセットする。(「割れためがね」2分割×5つ)</h3>
+          <div><img src="https://tkby.github.io/Learning-by-Viscuit.github.io/waretamegane.Sl/LikeS.P01.jpg" alt="ビスケットでSP風ゲーム1画像" width=60%></div>
+          <div><img src="https://tkby.github.io/Learning-by-Viscuit.github.io/waretamegane.Sl/LikeS.P02.jpg" alt="ビスケットでSP風ゲーム2画像" width=60%></div>
+          <div><img src="https://tkby.github.io/Learning-by-Viscuit.github.io/waretamegane.Sl/LikeS.P03.jpg" alt="ビスケットでSP風ゲーム3画像" width=60%></div>
+
+            <p>・"Move Forward"、"Turn Left"、"Turn Right"、"Warp"、"Collect Gem"をアイコンに変換して並べる</p>
+            <p>2分割の「割れたメガネ」の左右のメガネの下半分に水色の枠を入れます。左右のメガネの上半分には、"Move Forward"などの命令をそれぞれ入れます。左のメガネの上半分の"Move Forward"などの上にタッチマークを入れます。右のメガネの下半分の水色の枠には、それぞれの命令に対応したアイコンを中に入れます。これで、"Move Forward"などの命令をタップすると、水色の枠の中にそれぞれの命令に対応したアイコンが並べられます。</p>
+          <h3>2."Move Forward"の命令でカニがどちらの方向を向いていても直進させる。（「割れたメガネ」2分割×4つ）</h3>
+          <div><img src="https://tkby.github.io/Learning-by-Viscuit.github.io/waretamegane.Sl/LikeS.P04.jpg" alt="ビスケットでSP風ゲーム4画像" width=60%></div>
+          <div><img src="https://tkby.github.io/Learning-by-Viscuit.github.io/waretamegane.Sl/LikeS.P05.jpg" alt="ビスケットでSP風ゲーム5画像" width=60%></div>
+          <p>・上下左右、カニがどの方向を向いていても1マス前進させる</p>
+          <p>画像の水色アイコンは、命令実行のトリガーです。2分割の「割れたメガネ」4つの左のメガネの下半分に、短い水色の矢印とピンクの直進命令アイコンをそれぞれ画像のように1マス開けて配置します。左のメガネの上半分は、90°ずつ回転モードで回転させたカニをそれぞれ入れます。右のメガネの下半分は水色の長い矢印とピンクの直進命令アイコンを、ぞれぞれ画像のように入れます。右のメガネの上半分は、それぞれの向きのカニを1マス進めて配置します。これで、ピンクの直進命令アイコンの2マス左に水色の短い矢印が到達すると、カニがどの方向を向いていても1マス前進します。</p>
+          <h3>3."Turn Left"、"Turn Right"の命令で、カニに右左折をさせる（「割れたメガネ」2分割×2つ）</h3>
+          <div><img src="https://tkby.github.io/Learning-by-Viscuit.github.io/waretamegane.Sl/LikeS.P06.jpg" alt="ビスケットでSP風ゲーム6画像" width=60%></div>
+          <p>・上下左右、カニがどの方向を向いていても右折させる。</p>
+          <p>直進の時と同様に、画像の水色アイコンは、命令実行のトリガーです。2分割の「割れたメガネ」左のメガネの下半分に、短い水色の矢印とピンクの右折命令アイコンをそれぞれ画像のように1マス開けて配置します。左のメガネの上半分は、カニを入れます。右のメガネの下半分は水色の長い矢印とピンクの右折命令アイコンを、ぞれぞれ画像のように入れます。右のメガネの上半分は、回転モードでカニを90°右に回転して配置します。これで、ピンクの右折命令アイコンの2マス左に水色の短い矢印が到達すると、カニが右折します。右左折の場合は全ての方向を向いているパターンを作らなくても回転してくれます。</p>
+          <p>・上下左右、カニがどの方向を向いていても左折させる。</p>
+          <p>直進の時と同様に、画像の水色アイコンは、命令実行のトリガーです。2分割の「割れたメガネ」左のメガネの下半分に、短い水色の矢印とピンクの左折命令アイコンをそれぞれ画像のように1マス開けて配置します。左のメガネの上半分は、カニを入れます。右のメガネの下半分は水色の長い矢印とピンクの左折命令アイコンを、ぞれぞれ画像のように入れます。右のメガネの上半分は、回転モードでカニを90°左に回転して配置します。これで、ピンクの左折命令アイコンの2マス左に水色の短い矢印が到達すると、カニが左折します。右左折の場合は全ての方向を向いているパターンを作らなくても回転してくれます。</p>
+          <h3>4."Warp"の命令で、カニをワープさせる（「割れたメガネ」3分割×1つ）</h3>
+          <div><img src="https://tkby.github.io/Learning-by-Viscuit.github.io/waretamegane.Sl/LikeS.P07.jpg" alt="ビスケットでSP風ゲーム7画像" width=60%></div>
+          <p>・ワープのマスに止まった時にワープさせる</p>
+          <p>3分割の「割れたメガネ」の左のメガネの下半分左側に、短い水色の矢印とピンクのワープ命令アイコンをそれぞれ画像のように1マス開けて配置します。左のメガネの下半分右には、ワープ入り口タイルを配置してその上にカニを置きます。今回は実際の進行方向に合わせカニを180°回転させています。左のメガネ上半分にはワープ出口のタイルを配置します。右のメガネの下半分左側には、直進、右左折の時と同様に、水色の長い矢印とワープ命令アイコンを画像のように入れます。右のメガネ下半分右にはワープ入り口タイルのみ配置します。右のメガネ上半分は、ワープ出口タイルを配置し、その上に180°回転させたカニを置きます。これで、ワープ入り口タイルにたどり着いたカニにワープ命令が出されると、ワープ出口タイルにカニがワープします。</p>
+          <h3>5."Collect Gem"の命令で、カニに宝石を取らせる。（「割れたメガネ」3分割×1つ）</h3>
+          <div><img src="https://tkby.github.io/Learning-by-Viscuit.github.io/waretamegane.Sl/LikeS.P08.jpg" alt="ビスケットでSP風ゲーム8画像" width=60%></div>
+          <p>・宝石のマスに止まったらカニに宝石を取らせる</p>
+          <p>3分割の「割れたメガネ」の左のメガネの下半分左側に、短い水色の矢印とピンクの宝石回収命令アイコンをそれぞれ画像のように1マス開けて配置します。左のメガネの下半分右には、赤の宝石回収箱を配置します。メガネ上半分には宝石を置き、その上に現状のルートに合わせて90°回転したカニを配置します。右のメガネの下半分左側には、直進、右左折の時と同様に、水色の長い矢印と宝石回収アイコンを画像のように入れます。右のメガネ下半分右には宝石回収箱の上に宝石を置きます。右のメガネ上半分は、ゲームクリア用のカニを置きます。これで、カニが宝石に触れて宝石回収の命令が出されると、宝石箱に宝石が回収されてゲームクリアとなります。</p>
+          　<h3>以上、Swift Playgrounds風ゲームでの「割れたメガネ」の活用でした。</h3>
+          <p>アイデアの元ネタは以下の「プログラミングで学ぶ」教材研究グループ投稿記事です。</p>
+          <div><img src="https://tkby.github.io/Learning-by-Viscuit.github.io/waretamegane.Sl/2017sp.jpg" alt="ビスケットで格闘ゲーム元ネタ画像" width=50%></div>
+            </li>
+</ul>
+<footer>
+<nav>
+<a href="https://tkby.github.io/Learning-by-Viscuit.github.io/waretamegane.html">割れたメガネ特集へ</a>
+</nav>
+<small>© 2019 CoderDojo Handa,Created by Yoshinori Takebayashi</small>
+</footer>
+   </body>
+ </html>
