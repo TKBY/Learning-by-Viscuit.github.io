@@ -4,7 +4,7 @@ session_start();
  
 //ログイン済みかを確認
 if (!isset($_SESSION['USER'])) {
-    header('Location: login.php');
+    header('Location: 'https://tkby.github.io/Learning-by-Viscuit.github.io/login.php');
     exit;
 }
  
@@ -14,7 +14,7 @@ if(isset($_POST['logout'])){
     $_SESSION = [];
     session_destroy();
  
-    header('Location: login.php');
+    header('Location: 'https://tkby.github.io/Learning-by-Viscuit.github.io/login.php');
     exit;
 }
  
@@ -30,7 +30,7 @@ if(isset($_POST['logout'])){
 <h1>トップ画面</h1>
 <p><?php echo $_SESSION['USER'] ?>さんでログイン中</p>
 <br>
-<form method="post" action="top.php">
+<form method="post" action="https://tkby.github.io/Learning-by-Viscuit.github.io/top.php">
     <input type="submit" name="logout" value="ログアウト">
 </form>
  
