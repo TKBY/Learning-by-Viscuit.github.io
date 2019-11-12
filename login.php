@@ -14,7 +14,7 @@
         if ($_POST['email'] == 'login@example.com' && $_POST['password'] == 'password'){ // ③
  
             $_SESSION["USER"] = 'user';
-            header("Location: "https://tkby.github.io/Learning-by-Viscuit.github.io/top.php");
+            header("Location: 'https://tkby.github.io/Learning-by-Viscuit.github.io/top.php');
             exit;
         }
         else{
