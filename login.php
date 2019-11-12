@@ -14,7 +14,7 @@
         if ($_POST['email'] == 'login@example.com' && $_POST['password'] == 'password'){ // ③
  
             $_SESSION["USER"] = 'user';
-            header("Location: top.php");
+            header("Location: "https://tkby.github.io/Learning-by-Viscuit.github.io/top.php");
             exit;
         }
         else{
@@ -34,7 +34,7 @@
 <body>
 <h1>ログイン機能</h1>
 <p style="color: red"><?php echo $message ?></p>
-<form method="post" action="login.php">
+<form method="post" action="https://tkby.github.io/Learning-by-Viscuit.github.io/login.php">
     <label for="email">メールアドレス</label>
     <input id="email" type="email" name="email">
     <br>
