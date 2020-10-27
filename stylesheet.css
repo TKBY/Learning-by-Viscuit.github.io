@@ -274,3 +274,7 @@ header {
   transform: translateY(4px);
   border-bottom: none;
   }
+
+.POD {
+  text-align:center;
+  }
