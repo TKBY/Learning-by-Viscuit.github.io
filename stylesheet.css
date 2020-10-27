@@ -279,9 +279,5 @@ header {
   text-align:flex;
   }
 
-/*リンクをボールドにしアンダーラインを消すCSS*/
-a {
-  text-decoration: none;
-  font-weight:bold;
-  }
+
 
