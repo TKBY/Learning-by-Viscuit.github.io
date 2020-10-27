@@ -278,3 +278,31 @@ header {
 .POD {
   text-align:flex;
   }
+
+/*リンクをボールドにしアンダーラインを消すCSS*/
+a {
+  text-decoration: none;
+  font-weight:bold;
+  }
+
+/*未アクセスリンク（グリーン）*/
+a:link {
+  color:#00FF00;
+  }
+
+/*既アクセスリンク（ピンク）*/
+a:visited {
+  color:#FFBEDA;
+  }
+
+/*リンクマウスオーバー状態（ピンク、アンダーライン）*/
+a:hover {
+  color:#FFBEDA;
+   font-weight:bold;
+  text-decoration:underline;
+  }
+
+/*リンククリック中（緑色）*/
+a:active {
+  color:#FF00FF;
+  }
