@@ -30,6 +30,11 @@ a{
   text-decoration:none;
   }
 
+/*未アクセスリンク（シルバー）*/
+a:link {
+  color:#1A0DAB;
+  }
+
 ul{
   list-style:none;
   }
